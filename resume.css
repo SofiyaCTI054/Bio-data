@@ -1,0 +1,38 @@
+
+    margin-0
+    padding-0
+    box-sizing- border-box
+
+body {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 50%;
+    max-width: 100px;
+    min-height: 100px;
+    background-color: azure;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+   position: initial;
+   background-color: sandybrown;
+   padding: 20px;
+   text-align: left;
+}
+.right {
+    position: initial;
+    background-color: darkgrey;
+    padding: 20px;
+    text-align: right;
+}
+.image, .name, .Career Objective, .Skills, .Education Qualification, .strengths, .Area of Interests, .Hobbies, .personal Details, Languages known, .Internship, .Declaration {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
